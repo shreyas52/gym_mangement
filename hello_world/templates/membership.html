@@ -1,0 +1,160 @@
+<html>
+            <head>
+              <script type ="text/javascript">
+                function f1()
+                {
+                  alert("Are You Sure");
+                }
+              </script>
+              </script>
+              <style> 								
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  width: 60%;
+  
+  
+  
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.header {
+  padding: 10px 16px;
+  background: white;
+  color: #f1f1f1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  }
+              				
+        .div1 { 
+            position: fixed; bottom:50%;
+             }
+    </style> 
+ 
+            </head>
+        <body bgcolor="skyblue">
+        				<div class="header"><img src ="https://www.googleapis.com/drive/v3/files/1Ix9YIpWiC6WnuzsW9hH0k1hT7aIf8nti?alt=media&key=AIzaSyBMSDQ0hzweDt3ZgIot1tnX5q4xHdtid4c" align="top left" alt="TRANSFORM GYM" onclick="home" width="187.4" height="52.8">
+</div><br><br><br><br>
+<center><div1>
+<form methode ="get" class="form-container" align="left" action="home">
+				
+<br><h2><b><u><center> Membership Form </center></u> </b></h2>
+<br><br>
+
+<label for="n1"><b>Full Name </b></label>
+<input type="text" name="n1" placeholder="Enter User name"> <br>
+
+<label><b>Gender : </b></label>
+<input type="radio" name="r1" value="Male"> Male 
+         <input type="radio" name="r1" value="Female"> Female <br><br>
+
+<label for="email"><b>Email</b></label> 
+<input type="text" name="email" placeholder="Email"> <br>
+
+<label for="email"><b>Select Plan :</b></label> 
+<select>
+<option>Plans</option>
+<option>Basis plane </option>
+<option>primium plan </option>
+<option>VIP plan</option>
+</select>
+ <br> <br>
+
+<label for="con1"><b>Contact Number</b></label>
+<input type="text" name="con1" placeholder="Contact No." cols="10">
+ <br><br>
+
+<label for="d1"><b>Start Date:</b></label>
+ <br>
+<input type="text" placeholder="Start Date" name="d1"> 
+
+<label for="d2"><b>End Date</b></label><br>
+<input type="text" placeholder="End Date" name="d2"><br> <br>
+
+<label><b>Select Time :</b></label>
+<select>
+<option>Select Time </option>
+<option>07.00 am to 09.00am </option>
+<option>09.00 am to 11.00am</option>
+<option>04.00 pm to 06.00pm</option>
+<option>06.00 pm to 08.00pm</option>
+</select><br><br>
+
+<label><b>Select Trainer :</b></label>
+<select>
+<option> Select Trainer</option>
+<option> Dwayne Johson</option>
+<option> Arnold Schwarzenegger </option>
+<option> Dipraj dhumak</option>
+<option> Sachin Mogarankar</option>
+<option> Adityaraj Karambale</option>
+<option> Shreyas Chavan</option>
+</select>
+ <br> <br><center>
+<input type ="submit" text="submit" class="open-button" value ="submit" onClick="home"></center> <br><br> 
+</div1>
+</center>
+</body>
+</html>

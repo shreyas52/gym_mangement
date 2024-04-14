@@ -22,10 +22,20 @@ from django.conf.urls.static import static
 
 from hello_world.core import views as core_views
 
+
+from.import views
 urlpatterns = [
-    path("", core_views.index),
+    path("", views.home),
     path("admin/", admin.site.urls),
     path("__reload__/", include("django_browser_reload.urls")),
+
+    path('index/',views.index),
+    path("home/", views.home, name='home'),
+    path('membership/',views.mem),
+    path('profile/',views.profile),
+    path('login/',views.home),
+    path('signup/',views.signup),
+    path('forgot/',views.forgot),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

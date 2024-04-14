@@ -1,0 +1,130 @@
+<html>
+            <head>
+            				
+            				<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  width:60%;
+  
+  
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color:hsla(0, 88%, 99%, 0.3);
+  background-opacity: 0.2;
+  
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.header {
+  padding: 10px 16px;
+  background: skyblue;
+  color: #f1f1f1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  }
+</style>
+            				
+            </head>
+        <body bgcolor="white">
+        				<div  class="header"><img src ="https://www.googleapis.com/drive/v3/files/1Ix9YIpWiC6WnuzsW9hH0k1hT7aIf8nti?alt=media&key=AIzaSyBMSDQ0hzweDt3ZgIot1tnX5q4xHdtid4c" align="top left" alt="TRANSFORM GYM" width="187.4" height="52.8">
+</div><br><br>
+
+<div style="background-image: url('https://www.googleapis.com/drive/v3/files/1KwoRbVCxqaPyWUfYNlZWlIUIaPfjkuUU?alt=media&key=AIzaSyBMSDQ0hzweDt3ZgIot1tnX5q4xHdtid4c'); background-attachment: fixed;
+background-size:cover;">
+<form action="home" class="form-container" align="left">
+  <center>  <h2><u>Profile</h2></u></center>
+
+    <label for="n1"><b>Name</b></label>
+    <input type="text" placeholder="Full Name" name="n1" required>
+    
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+<label for="n1"><b>Contact Number</b></label>
+    <input type="text" placeholder="Contact Number" name="n1" required>
+    
+    <label><b>Membership Plan  </b></label>
+    <select >
+<option>Plans</option>
+<option>Basis plane </option>
+<option>primium plan </option>
+<option>VIP plan</option>
+</select><br><br>
+  
+  <label><b>Trainer </b></label>
+   
+<select>
+<option> Select Trainer</option>
+<option> Dwayne Johson</option>
+<option> Arnold Schwarzenegger </option>
+<option> Dipraj dhumak</option>
+<option> Sachin Mogarankar</option>
+<option> Adityaraj Karambale</option>
+<option> Shreyas Chavan</option>
+</select><br><br>
+
+<label><b>Training Time </b></label>
+   
+<select>
+<option>Select Time </option>
+<option>07.00 am to 09.00am </option>
+<option>09.00 am to 11.00am</option>
+<option>04.00 pm to 06.00pm</option>
+<option>06.00 pm to 08.00pm</option>
+</select><br><br><br>
+
+<center>  <input type ="submit" text="submit" class="open-button" value ="submit" onclick="home">
+    </center>
+    </div>
+</body>
+</html>

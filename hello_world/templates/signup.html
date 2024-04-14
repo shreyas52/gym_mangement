@@ -1,0 +1,115 @@
+<html>
+            <head>
+ <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  width:60%;
+ 
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.header {
+  padding: 10px 16px;
+  background: skyblue;
+  color: #f1f1f1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  }
+</style>
+            </head>
+        <body>
+        				
+        			<div class="header"><a href="index"><img src ="https://www.googleapis.com/drive/v3/files/1Ix9YIpWiC6WnuzsW9hH0k1hT7aIf8nti?alt=media&key=AIzaSyBMSDQ0hzweDt3ZgIot1tnX5q4xHdtid4c" alt="TRANSFORM GYM" href="home0.html" width="187.4" height="52.8"></a>
+</div>
+<br><br><br><br>
+        				<img src="https://www.googleapis.com/drive/v3/files/1KjgUECuprvIBM7i4VVO1oXBWM5NeN7jr?alt=media&key=AIzaSyBMSDQ0hzweDt3ZgIot1tnX5q4xHdtid4c" align="right">
+        				<div1>
+<form methode ="post" class="form-container" action="index" align="center"><div>
+<u><b><h2> Sign Up Here </h2></u></b><br>
+
+<input type="text" placeholder="Enter Username">
+<input type="text" placeholder="Enter Email"><br>
+
+<input type="text" placeholder="Enter Password">
+<input type="text" placeholder="Confirm Password"><br>
+
+<select>
+<option>Persnal Question</option>
+<option>Name of School  Teacher</option>
+<option>Pet Name</option>
+<option>Favourite Movie </option>
+</select>
+<input type="text" placeholder="Enter Answer"><br>
+
+<input type="text" placeholder="Contac No." cols="10"><br>
+
+<input type ="submit" class="open-button" text ="Sign Up" value="Sign Up" onClick="index">
+
+<a href="index"><u><h4> Already Have An Account</h4> </u></a><br></div1>
+
+</div>
+</body>
+</html>
